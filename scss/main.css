@@ -1560,6 +1560,13 @@ p {
   padding: 24px 32px;
 }
 
+.footer-bottom__inner:hover {
+  -webkit-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.04);
+          box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.04);
+  -webkit-transition: all ease .5;
+  transition: all ease .5;
+}
+
 .footer-bottom__inner .footer-links {
   margin-bottom: 0;
   margin-right: 12px;
@@ -1897,6 +1904,50 @@ button.slick-arrow {
   .header-buttons__language {
     display: none;
   }
+}
+
+.sport-h4, .sport-icons {
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+.sport-block:hover .sport-h4 {
+  -webkit-transition: all ease .4s;
+  transition: all ease .4s;
+  color: #558EF7;
+}
+
+.sport-block:hover .sport-icons {
+  background: #428eff;
+  -webkit-transition: all ease .4s;
+  transition: all ease .4s;
+  fill: #fff;
+}
+
+.atlet {
+  padding: 10px !important;
+}
+
+.prew-icon {
+  padding: 20px !important;
+}
+
+.sport-icons {
+  fill: #5D748A;
+  margin-right: 20px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 10px 20px rgba(106, 123, 145, 0.05);
+          box-shadow: 0px 10px 20px rgba(106, 123, 145, 0.05);
+  border-radius: 16px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.sport-icons:hover {
+  fill: #ffffff;
+  background: #428EFF;
+  -webkit-transition: all ease .4s;
+  transition: all ease .4s;
 }
 
 @media screen and (max-width: 576px) {
