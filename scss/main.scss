@@ -151,6 +151,7 @@ p {
 
 .link {
     text-decoration: none;
+    outline: none;
 }
 
 .tel-icon {
@@ -511,6 +512,21 @@ p {
             color: #5D748A;
             text-decoration: none;
             margin-right: 32px;
+
+            &:hover {
+                transform: scale(1.2);
+                color: #4A4952;
+                transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) .4s;
+            }
+        }
+    }
+
+    .spanes {
+        position: relative;
+        z-index: 7;
+        &__span {
+            width: 12px;
+            height: 12px;
         }
     }
 
@@ -1111,6 +1127,7 @@ p {
 
     &-right__midle {
         display: flex;
+        margin-bottom: 34px;
     }
 
     &-h4 {
@@ -1120,6 +1137,8 @@ p {
         line-height: 125.34%;
         color: #5D748A;
         width: 112px;
+        position: relative;
+        top: -10px;
 
         &:hover {
             color: #558EF7;
@@ -1142,11 +1161,22 @@ p {
         background: #FFFFFF;
         padding: 46px 32px 32px 32px;
         box-sizing: border-box;
+        overflow: hidden;
 
         &__top {
             display: flex;
             justify-content: space-around;
             align-items: center;
+        }
+    }
+
+    &-scale {
+        display: flex;
+        align-items: center;
+
+        &:hover {
+            transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) .3s;
+            transform: scale(.9);
         }
     }
 
@@ -1161,6 +1191,7 @@ p {
         padding: 11px 116px 5px 12px;
         margin-top: 30px;
         position: relative;
+        overflow: hidden;
 
         &:hover {
             background: #FFF4E9;
@@ -1327,7 +1358,9 @@ p {
     padding: 56px 0px 44px 0px;
 
 
-
+    .header-logo {
+        margin-bottom: 40px;
+    }
     &-top {
         display: flex;
         justify-content: space-between;
@@ -1461,6 +1494,7 @@ button.slick-arrow {
     &:hover {
         fill: #FF8B2E;
         transition: all ease 0.4s;
+        transform: scale(1.3);
     }
 }
 
@@ -1706,7 +1740,7 @@ fill: #fff;
     box-shadow: 0px 10px 20px rgba(106, 123, 145, 0.05);
     border-radius: 16px;
     padding: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     &:hover {
         fill: #ffffff;
         background: #428EFF;
