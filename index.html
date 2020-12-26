@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./libs/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="./scss/main.css">
+    <title>Sport-Bolalar</title>
+</head>
+
+<body>
+    <div class="overle">
+
+    </div>
+    <div class="overlay"></div>
+    <header class="header">
+        <div class="header-content container">
+            <div class="header-logo">
+                <a href="#" class="link">
+                    <img src="./images/logo.svg" alt="img" class="header-logo__img">
+                </a>
+                <h2 class="header-logo--text">
+                    Sport Bolalar <br>
+                    Nigohida
+                </h2>
+            </div>
+            <div class="header-links">
+                <a href="#" class="header-links__link">O‘yinlar</a>
+                <a href="#" class="header-links__link">Infografika</a>
+                <a href="#" class="header-links__link">Ota-onalar uchun</a>
+                <a href="#" class="header-links__link">To‘garaklar</a>
+                <a href="#" class="header-links__link">Videoblog</a>
+                <a href="#" class="header-links__link">Reyting</a>
+            </div>
+            <div class="header-buttons">
+                <a href="#" class="header-buttons__language">O‘zb</a>
+                <a href="javascript:void(0)" class="header-buttons__button">Kabinet</a>
+                <a href="javascript:void(0)" class="burgermenu" id="burger">
+                    <span class="burger"></span>
+                    <span class="burger"></span>
+                    <span class="burger"></span>
+                </a>
+            </div>
+        </div>
+        <div class="asidebar2" id="burger-menu">
+            <div class="asiderbar2__content">
+                <a href="#" class="asidebar2-a">O’yinlar</a>
+                <a href="#" class="asidebar2-a">Infografika</a>
+                <a href="#" class="asidebar2-a">Ota-onalar uchun</a>
+                <a href="#" class="asidebar2-a">To‘garaklar</a>
+                <a href="#" class="asidebar2-a">Videoblog</a>
+                <a href="#" class="asidebar2-a">Reyting</a>
+                <div class="aside-lang">
+                    <a href="#" class="header-buttons__language">O‘zb</a>
+                    <a href="javascript:void(0)" class="header-buttons__button">Kabinet</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="asidebar">
+        <h2 class="black-h2">Kirish</h2>
+        <form action="" class="form">
+            
+            <div class="form__div">
+                <input type="tel" class="form__input" placeholder="+998 __ ___ __ __" id="tel">
+                <label for="tel" class="form__label">Elektron manzilingiz</label>
+                <svg width="17" height="17" class="tel-icon" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.48289 3.54607C7.97119 4.08735 7.81637 4.70056 7.38462 5.2824C7.28225 5.42034 7.16426 5.55627 7.02176 5.70604C6.95336 5.77793 6.90002 5.83199 6.78846 5.94367C6.53509 6.19728 6.3221 6.41039 6.14948 6.583C6.06577 6.6667 6.63729 7.80876 7.74645 8.91901C8.85501 10.0287 9.99701 10.6006 10.0811 10.5164L10.7196 9.87753C11.0713 9.52555 11.2575 9.35573 11.5134 9.18785C12.0454 8.83885 12.6256 8.74401 13.115 9.18159C14.7128 10.3245 15.617 11.0259 16.06 11.4862C16.924 12.3839 16.8107 13.7658 16.0649 14.5541C15.8062 14.8275 15.4783 15.1556 15.091 15.529C12.748 17.8733 7.80328 16.4466 4.01368 12.6533C0.22323 8.85915 -1.20263 3.91395 1.13541 1.57465C1.55516 1.14831 1.69355 1.00999 2.10235 0.607186C2.86345 -0.142757 4.3091 -0.260183 5.18789 0.607928C5.65015 1.06456 6.3871 2.01276 7.48289 3.54607ZM11.8976 11.0559L11.259 11.6949C10.1734 12.7811 8.32459 11.8552 6.56834 10.0973C4.81087 8.33808 3.88603 6.48998 4.97199 5.40411C5.14438 5.23174 5.35717 5.01883 5.61034 4.76541C5.71249 4.66316 5.75922 4.61579 5.8153 4.55685C5.89172 4.47654 5.95451 4.406 6.00478 4.34359C5.03364 2.9908 4.37348 2.14551 4.01759 1.79395C3.83379 1.61239 3.42224 1.64582 3.27115 1.79469C2.86819 2.19174 2.73574 2.32413 2.31769 2.74872C0.814094 4.25314 1.96515 8.24524 5.1918 11.4751C8.41744 14.7039 12.4089 15.8555 13.924 14.3398C14.3053 13.972 14.616 13.6611 14.8552 13.4084C15.028 13.2257 15.0589 12.8488 14.8601 12.6422C14.529 12.2982 13.7183 11.6661 12.3186 10.661C12.2166 10.7431 12.0912 10.8622 11.8976 11.0559Z" />
+                    </svg>
+ 
+            </div>
+
+            <div class="form__div">
+                <input type="password" class="form__input" placeholder="Parolni kiriting" id="key">
+                <label for="key" class="form__label">Password</label>
+                <svg width="18" height="18" class="key-icon" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M6.89453 5.53008C6.89453 2.60527 9.26968 0.25 12.2812 0.25C15.2773 0.25 17.75 2.58237 17.75 5.52227C17.75 8.46062 15.2789 10.8035 12.2812 10.8035C11.6244 10.8035 11.0707 10.7195 10.5009 10.5158C10.4811 10.5297 10.4592 10.5448 10.4347 10.5616C10.3156 10.6427 10.1097 10.7769 9.87033 10.8285C9.74258 10.8561 9.62538 10.8444 9.57142 10.838C9.50224 10.8299 9.4326 10.8162 9.37157 10.8027C9.25312 10.7764 9.11825 10.7392 9.00272 10.7073L8.99387 10.7048C8.92968 10.6871 8.87096 10.6709 8.81771 10.6569C8.83451 10.6941 8.85433 10.7357 8.87733 10.7828C8.88561 10.7997 8.89467 10.818 8.90427 10.8374C8.9488 10.9275 9.00472 11.0406 9.04576 11.1414C9.07198 11.2058 9.10153 11.2871 9.12107 11.3758C9.13937 11.4588 9.15944 11.5936 9.1269 11.7463C9.0886 11.926 8.99356 12.0864 8.91965 12.1945C8.83562 12.3174 8.73044 12.442 8.61441 12.5559C8.40878 12.7576 8.06019 13.0324 7.64654 13.0806C7.38632 13.1109 7.15638 13.032 7.0199 12.9778C6.96654 12.9567 6.91467 12.9338 6.86799 12.9125C6.87083 12.9193 6.87364 12.9261 6.87641 12.9328C6.92152 13.0426 6.99648 13.2387 6.99209 13.4633C6.98337 13.9952 6.67175 14.3175 6.45248 14.5195C6.33126 14.6328 6.1759 14.7737 5.98416 14.8773C5.77131 14.9923 5.54069 15.0488 5.27763 15.0457L5.27725 15.0457C5.07177 15.0431 4.85051 14.9954 4.71015 14.9651C4.69263 14.9613 4.67637 14.9578 4.66156 14.9547C4.57952 14.9375 4.52446 14.9272 4.48253 14.9223C4.47955 14.922 4.4768 14.9217 4.47427 14.9214C4.47455 14.9238 4.47483 14.9262 4.47514 14.9286C4.48313 14.9933 4.49075 15.0352 4.50035 15.088C4.50947 15.1382 4.5204 15.1983 4.53516 15.2973C4.57211 15.5451 4.6535 16.1361 4.21911 16.562C4.13548 16.6443 4.07044 16.7129 3.98448 16.8034C3.95364 16.8359 3.92011 16.8712 3.88206 16.9111C3.74088 17.0588 3.55495 17.2497 3.24859 17.5481L3.247 17.5496L3.24569 17.5509C3.00058 17.7866 2.7019 17.758 2.57859 17.7341C2.43919 17.707 2.31475 17.6491 2.22523 17.6015C2.03859 17.5021 1.83848 17.3564 1.66334 17.2175C1.30706 16.9349 0.946177 16.5932 0.798349 16.4387C0.572308 16.2023 0.25 15.7346 0.25 15.1746L0.25 15.1742C0.250127 14.9759 0.291981 14.7799 0.372841 14.5989C0.45173 14.4223 0.566025 14.2638 0.708595 14.1332C0.795043 14.0478 1.12235 13.6798 1.62533 13.1013C2.12514 12.5265 2.7711 11.7758 3.45758 10.9749C4.72086 9.50101 6.11859 7.85999 6.98969 6.83724C6.89424 6.39176 6.89439 5.94919 6.89452 5.57109C6.89453 5.55734 6.89453 5.54366 6.89453 5.53008ZM4.47013 14.8623C4.47014 14.8623 4.47014 14.8628 4.47008 14.8637C4.4701 14.8628 4.47013 14.8623 4.47013 14.8623ZM8.75254 10.479C8.75257 10.479 8.75272 10.4798 8.75288 10.4814C8.7526 10.4797 8.75251 10.4789 8.75254 10.479ZM8.60298 10.6081C8.60343 10.6082 8.6039 10.6082 8.60441 10.6083C8.59535 10.6078 8.59413 10.6071 8.60298 10.6081ZM12.2812 1.5C9.94126 1.5 8.14453 3.31426 8.14453 5.53008C8.14453 6.05838 8.1505 6.44176 8.27007 6.78588C8.34282 6.99528 8.29922 7.22754 8.15548 7.39629C8.09195 7.47088 8.02447 7.5501 7.95343 7.63351C7.08335 8.65507 5.67722 10.306 4.40667 11.7884C3.71962 12.59 3.07139 13.3433 2.56864 13.9215C2.07986 14.4836 1.69941 14.9146 1.57008 15.039C1.56484 15.0441 1.55952 15.049 1.55411 15.0539C1.53709 15.0691 1.52348 15.0878 1.51416 15.1087C1.50487 15.1295 1.50004 15.152 1.5 15.1748C1.50005 15.2164 1.51405 15.2825 1.55668 15.3675C1.59873 15.4513 1.65501 15.5259 1.70165 15.5746C1.81164 15.6896 2.13044 15.9925 2.44018 16.2382C2.51451 16.2972 2.58256 16.3482 2.64264 16.3904C2.78756 16.2457 2.89238 16.1374 2.97829 16.0475C3.00915 16.0152 3.03863 15.9842 3.06745 15.9538C3.14956 15.8673 3.2263 15.7864 3.31441 15.6987C3.31643 15.6725 3.31778 15.6088 3.29882 15.4816C3.29548 15.4592 3.28845 15.4179 3.28011 15.3689C3.26415 15.2752 3.24342 15.1535 3.23458 15.0819C3.21958 14.9606 3.19235 14.7069 3.29663 14.4636C3.38553 14.2561 3.50845 14.0577 3.70709 13.9099C3.90006 13.7664 4.1037 13.7186 4.23062 13.6919C4.38308 13.6598 4.52726 13.6691 4.6266 13.6807C4.73091 13.6928 4.83551 13.714 4.91852 13.7314C4.92971 13.7338 4.94059 13.7361 4.95117 13.7383C5.12631 13.7751 5.21981 13.7948 5.29284 13.7958C5.35387 13.7965 5.37324 13.7866 5.38986 13.7776C5.42664 13.7577 5.47967 13.7178 5.60037 13.6049C5.60164 13.6037 5.60291 13.6025 5.60418 13.6014C5.69136 13.5212 5.72365 13.481 5.7374 13.4588C5.73788 13.458 5.73831 13.4573 5.7387 13.4566C5.73503 13.4458 5.7292 13.4298 5.72015 13.4077C5.70707 13.3759 5.69278 13.3439 5.67378 13.3014C5.66992 13.2928 5.66587 13.2837 5.6616 13.2741C5.63851 13.2224 5.60973 13.1571 5.58336 13.0879C5.53317 12.956 5.46897 12.7539 5.48228 12.5214C5.49712 12.2622 5.60466 12.0178 5.80878 11.8179C6.03896 11.5925 6.31744 11.5096 6.58267 11.5205C6.81386 11.5301 7.01836 11.6103 7.14887 11.6666C7.20702 11.6917 7.26587 11.7191 7.31454 11.7418C7.32358 11.7461 7.33227 11.7501 7.34053 11.754C7.39835 11.7808 7.44198 11.8005 7.48059 11.8158C7.49615 11.822 7.50874 11.8265 7.51863 11.8299C7.52891 11.8249 7.54247 11.8178 7.55934 11.8076C7.6131 11.7749 7.67608 11.7253 7.7391 11.6635C7.78369 11.6197 7.82264 11.5754 7.85379 11.5354C7.83712 11.4999 7.81742 11.4599 7.79373 11.4119C7.78172 11.3875 7.76868 11.3611 7.7545 11.3321C7.69886 11.2183 7.62655 11.0668 7.57578 10.9107C7.52884 10.7665 7.47018 10.5323 7.52693 10.2798L7.52737 10.2778C7.5276 10.2768 7.52783 10.2758 7.52807 10.2748C7.56136 10.1321 7.63349 10.0165 7.67539 9.95477C7.72704 9.87866 7.78878 9.80419 7.85412 9.73698C7.95889 9.62922 8.17166 9.43672 8.44926 9.37637C8.57729 9.34854 8.69483 9.36032 8.74889 9.36667C8.81807 9.3748 8.88771 9.38845 8.94874 9.402C9.06719 9.42831 9.20206 9.46554 9.3176 9.49743L9.32644 9.49987C9.45313 9.53484 9.55851 9.56375 9.64258 9.58242C9.64367 9.58266 9.64475 9.5829 9.64581 9.58313C9.66872 9.5697 9.69649 9.55197 9.73037 9.52887C9.76973 9.50202 9.8079 9.47451 9.85254 9.44235C9.86468 9.4336 9.87731 9.4245 9.89056 9.41498C9.94713 9.37434 10.0166 9.32498 10.0876 9.28077C10.2617 9.17241 10.4778 9.15629 10.666 9.23763C11.185 9.462 11.6502 9.55352 12.2812 9.55352C14.6352 9.55352 16.5 7.72454 16.5 5.52227C16.5 3.32153 14.6368 1.5 12.2812 1.5ZM9.71733 9.59656C9.71689 9.59651 9.71641 9.59645 9.7159 9.59639C9.72496 9.59689 9.72619 9.5976 9.71733 9.59656ZM7.91903 11.4371C7.91908 11.4371 7.9188 11.4377 7.91814 11.4391C7.91867 11.4379 7.91899 11.4372 7.91903 11.4371ZM13.375 4C13.2514 4 13.1305 4.03666 13.0278 4.10533C12.925 4.17401 12.8449 4.27162 12.7976 4.38582C12.7503 4.50003 12.7379 4.62569 12.762 4.74693C12.7861 4.86817 12.8456 4.97953 12.9331 5.06694C13.0205 5.15435 13.1318 5.21388 13.2531 5.23799C13.3743 5.26211 13.5 5.24973 13.6142 5.20243C13.7284 5.15512 13.826 5.07501 13.8947 4.97223C13.9633 4.86945 14 4.74861 14 4.625C14 4.45924 13.9342 4.30027 13.8169 4.18306C13.6997 4.06585 13.5408 4 13.375 4ZM12.3333 3.06599C12.6416 2.85997 13.0042 2.75 13.375 2.75C13.8723 2.75 14.3492 2.94754 14.7008 3.29917C15.0525 3.65081 15.25 4.12772 15.25 4.625C15.25 4.99584 15.14 5.35835 14.934 5.66669C14.728 5.97504 14.4351 6.21536 14.0925 6.35727C13.7499 6.49919 13.3729 6.53632 13.0092 6.46397C12.6455 6.39162 12.3114 6.21305 12.0492 5.95082C11.787 5.6886 11.6084 5.35451 11.536 4.99079C11.4637 4.62708 11.5008 4.25008 11.6427 3.90747C11.7846 3.56486 12.025 3.27202 12.3333 3.06599Z"/>
+                    </svg>
+            </div>
+
+        </form>
+        <div class="asidebar-textline">
+            <a href="#" class="asidebar-links">Eslab qolish</a>
+            <a href="#" class="asidebar-links">Parolni unutdingizmi ?</a>
+        </div>
+        <div class="asidebar-spans">
+            <p class="all-orange-p">Yoki</p>
+        </div>
+        <button type="submit" class="asidebar-button2">Ro‘yxatdan o‘tish</button>
+    </div>
+    <main class="main">
+        <section class="section1">
+            <div class="section1-content container1">
+                <div class="section1-left">
+                    <img src="./images/black-stone.png" alt="img" class="black-stone">
+                    <h1 class="title">
+                        Sport Bolalar Nigohida
+                        portalida yangi o‘yinimizni qarshi oling!
+                    </h1>
+                    <div class="section1-left__buttons">
+                        <a href="#" class="orange-button mr">
+                            <span class="orange-button__span1"></span>
+                            <span class="orange-button__span2"></span>
+                            <span class="orange-button__span3"></span>
+                            <span class="orange-button__span4"></span>
+                            O‘yinga o‘tish</a>
+                        <a href="#" class="white-button">Batafsil</a>
+                    </div>
+                </div>
+                <div class="section1-right">
+                    <img src="./images/section1-img.png" alt="img" class="headline-img">
+                    <img src="./images/white-stone.png" alt="img" class="white-stone">
+                </div>
+            </div>
+        </section>
+        <div class="family-section container">
+            <div class="family-section__left">
+                <h3 class="all-h3">
+                    Ota-onalar sahifasi
+                </h3>
+                <p class="all-p">
+                    Ushbu sahifa ota-onalarni bolalar sporti dunyosi bilan tanishtiradi
+                </p>
+                <a href="#" class="orange-button">Sahifaga o‘tish</a>
+            </div>
+            <div class="family-section__right">
+                <img src="./images/famili-img.svg" alt="img" class="family-img">
+            </div>
+        </div>
+        <div class="img-section container">
+            <div class="img-section__top">
+                <a href="#" class="box-link">
+                    <div class="img-section__box">
+                        <img src="./images/img.png" alt="img" class="avatar">
+                        <div class="subject">
+                            <p class="white-p">
+                                10/11/2017
+                            </p>
+                            <p class="white-p">
+                                Futbol
+                            </p>
+                        </div>
+                        <img src="./images/play.svg" alt="" class="play-icon">
+                        <p class="white-p box-width">O‘smirlar o‘rtasida futbol chempionati o‘tkazildi</p>
+                    </div>
+                </a>
+                <a href="#" class="box-link">
+                    <div class="img-section__box">
+                        <img src="./images/img2.png" alt="img" class="avatar">
+                        <div class="subject">
+                            <p class="white-p">
+                                10/11/2017
+                            </p>
+                            <p class="white-p">
+                                Kuch sinashish
+                            </p>
+                        </div>
+                        <img src="./images/play.svg" alt="" class="play-icon">
+                        <p class="white-p box-width">Kuch sinashish bo‘yicha qaysi jamoa g‘olib bo‘ldi...</p>
+                    </div>
+                </a>
+                <div class="tagline">
+                    <h3 class="all-h3 blue">Videoblog</h3>
+                    <p class="silver-p">Bolalar sportiga tegishli videolavhalar ushbu <br>
+                        blogdan joy olgan.</p>
+                    <a href="#" class="all-links">Barcha videolar</a>
+                </div>
+            </div>
+            <div class="img-section__bottom">
+                <a href="#" class="box-link">
+                    <div class="img-section__box">
+                        <img src="./images/img3.png" alt="img" class="avatar">
+                        <div class="subject">
+                            <p class="white-p">
+                                10/11/2017
+                            </p>
+                            <p class="white-p">
+                                Chempionat
+                            </p>
+                        </div>
+                        <img src="./images/play.svg" alt="" class="play-icon">
+                        <p class="white-p box-width">O‘smirlar o‘rtasida futbol chempionati o‘tkazildi</p>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/watch?v=1yVssoQ_rAg" class="link">
+                    <div class="img-section__big-box">
+                        <img src="./images/img4.png" alt="img" class="avatar">
+                        <div class="subject">
+                            <p class="white-p">
+                                10/11/2017
+                            </p>
+                            <p class="white-p">
+                                Rasmiy
+                            </p>
+                        </div>
+                        <img src="./images/play.svg" alt="" class="play-icon">
+                        <p class="white-p box-width">Yurtboshimizning sportni rivojlantirish <br>
+                            bo‘yicha navbatdagi yig‘ilishi</p>
+                    </div>
+                </a>
+                <a href="#" class="box-link">
+                    <div class="img-section__box">
+                        <img src="./images/img5.png" alt="img" class="avatar">
+                        <div class="subject">
+                            <p class="white-p">
+                                10/11/2017
+                            </p>
+                            <p class="white-p">
+                                Ommaviy
+                            </p>
+                        </div>
+                        <img src="./images/play.svg" alt="" class="play-icon">
+                        <p class="white-p box-width">Kuch sinashish bo‘yicha qaysi jamoa g‘olib bo‘ldi...</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="card-section container1">
+            <div class="card-section__top">
+                <h3 class="all-h3 blue">O‘yinlar</h3>
+            </div>
+            <div class="card-section__bottom">
+                <a href="#" class="link">
+                    <div class="card-section__card ">
+                        <img src="./images/images1.svg" alt="img" class="card-img">
+                        <div class="prw">
+                            <h3 class="all-h3">
+                                O‘ylab <br>
+                                toping
+                            </h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="link">
+                    <div class="card-section__card ">
+                        <img src="./images/images2.svg" alt="img" class="card-imgs">
+                        <div class="mid">
+                            <h3 class="all-h3">
+                                Ha <br>
+                                yoki <br>
+                                Yo‘q
+                            </h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="link">
+                    <div class="card-section__card ">
+                        <img src="./images/images3.svg" alt="img" class="card-img">
+                        <div class="prw">
+                            <h3 class="all-h3">
+                                Sport <br>
+                                testi
+                            </h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="info-section">
+            <div class="info-section__subtitle">
+                <h3 class="all-h3 blue">Sport maslahatlari</h3>
+                <p class="silver-p">O‘zingizga qiziq bo’lgan sportga taaluqli barcha <br>
+                    ma’lumotlarga ega bo‘ling.</p>
+            </div>
+            <div class="info-section__blocks responsive">
+                <a href="#" class="link">
+                    <div class="info-section__block">
+                        <p class="silver-p">Mashq qilayotganingizda albatta yengil mashqlardan boshlang</p>
+                        <p class="info-p">Ertalabdan badantarbiya bilan shug‘ullanishni kanda qilmang badantarbiya
+                            badantarbiya bilan shug‘ullanishni kanda qilmang badantarbiya</p>
+                    </div>
+                </a> <a href="#" class="link">
+                    <div class="info-section__block">
+                        <p class="silver-p">Mashq qilayotganingizda albatta yengil mashqlardan boshlang</p>
+                        <p class="info-p">Ertalabdan badantarbiya bilan shug‘ullanishni kanda qilmang badantarbiya
+                            badantarbiya bilan shug‘ullanishni kanda qilmang badantarbiya</p>
+                    </div>
+                </a>
+                <a href="#" class="link">
+                    <div class="info-section__block">
+                        <p class="silver-p">Ertalabdan badantarbiya bilan shug‘ullanishni kanda qilmang</p>
+                        <p class="info-p">Ertalabdan badantarbiya bilan shug‘ullanishni kanda qilmang badantarbiya
+                            badantarbiya bilan shug‘ullanishni kanda qilmang badantarbiya</p>
+                    </div>
+                </a>
+                <a href="#" class="link">
+                    <div class="info-section__block">
+                        <p class="silver-p">Imkon qadar uy sharoitida tosh ko‘tarishdan yiroqroq bo‘ling</p>
+                        <p class="info-p">Ertalabdan badantarbiya bilan shug‘ullanishni kanda qilmang badantarbiya
+                            badantarbiya bilan shug‘ullanishni kanda qilmang badantarbiya</p>
+                    </div>
+                </a>
+                <a href="#" class="link">
+                    <div class="info-section__block">
+                        <p class="silver-p">Mashq qilayotganingizda albatta yengil mashqlardan boshlang</p>
+                        <p class="info-p">Ertalabdan badantarbiya bilan shug‘ullanishni kanda qilmang badantarbiya
+                            badantarbiya bilan shug‘ullanishni kanda qilmang badantarbiya</p>
+                    </div>
+                </a>
+            </div>
+            <div class="info-div">
+                <div class="info-section__prew">
+                    <div class="info-prew__block inf-prev  inf-prev">
+                        <img src="./images/orange-prew.svg" alt="img" class="prew-left">
+                        <span class="holder"></span>
+
+                        </a>
+                    </div>
+                    <div class="info-prew__block inf-next">
+
+                        <a href="javascript:void(0)" class="inf-prew inf-next">
+                            <span class="holder"></span>
+
+                            <img src="./images/orange-prew.svg" alt="img" class="prew-right">
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="sport container">
+            <div class="sport-left">
+                <img src="./images/baby.png" alt="img" class="baby-img">
+            </div>
+            <div class="sport-right">
+                <div class="sport-right__top">
+                    <h3 class="all-h3 blue center"> Hududingizdagi <br>
+                        sport inshootlari</h3>
+                    <div class="select-box">
+                        <div class="options-container ">
+                            <div class="option">
+                                <input type="radio" class="radio" id="1" name="category">
+                                <label for="1" class="radio-label">Andijon viloyati</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" class="radio" id="2" name="category">
+                                <label for="2">Buxoro viloyati</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" class="radio" id="3" name="category">
+                                <label for="3">FJizzax viloyati</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" class="radio" id="4" name="category">
+                                <label for="4">Xorazm viloyati</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" class="radio" id="5" name="category">
+                                <label for="5">Namangan viloyati</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" class="radio" id="6" name="category">
+                                <label for="6">Navoiy viloyati</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" class="radio" id="7" name="category">
+                                <label for="7">Samarqand viloyati</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" class="radio" id="8" name="category">
+                                <label for="8">Sirdaryo viloyati</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" class="radio" id="9" name="category">
+                                <label for="9">Surxondaryo viloyati</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" class="radio" id="10" name="category">
+                                <label for="10">Toshkent viloyati</label>
+                            </div>
+                        </div>
+                        <div class="selected">
+                            Toshkent shahri
+                        </div>
+                    </div>
+                </div>
+                <div class="sport-right__midle">
+                    <div class="midle-left">
+                        <a href="#" class="link">
+                            <div class="sport-block">
+                                <img src="./images/ball.svg" alt="img">
+                                <h4 class="sport-h4">Futbol
+                                    maydonlari</h4>
+                            </div>
+                        </a>
+                        <a href="#" class="link">
+                            <div class="sport-block">
+                                <img src="./images/pool.svg" alt="img">
+                                <h4 class="sport-h4">
+                                    Suzish
+                                    havzalari
+                            </div>
+                        </a>
+                        <a href="#" class="link">
+                            <div class="sport-block">
+                                <img src="./images/chel.svg" alt="img">
+                                <h4 class="sport-h4">
+                                    Yugurish
+                                    maydonlari
+                            </div>
+                        </a>
+                    </div>
+                    <div class="sport-midle__right">
+                        <a href="#" class="link">
+                            <div class="sport-block">
+                                <img src="./images/rock.svg" alt="img">
+                                <h4 class="sport-h4">
+                                    Tennis
+                                    kortlarii</h4>
+                            </div>
+                        </a>
+                        <a href="#" class="link">
+                            <div class="sport-block">
+                                <img src="./images/person.svg" alt="img">
+                                <h4 class="sport-h4">
+                                    Gimnastika
+                                    komplekslari
+                                </h4>
+                            </div>
+                        </a>
+                        <a href="#" class="link">
+                            <div class="sport-block">
+                                <img src="./images/prew-right.svg" alt="img">
+                                <h4 class="sport-h4">
+                                    Boshqa
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="sport-right__bottom">
+                    <div class="sport-box">
+                        <img src="./images/27.svg" alt="img">
+                        <div class="sport-text">
+                            <p class="info-p">
+                                ta
+                            </p>
+                            <p class="silver-p">
+                                Suzish havzalari mavjud
+                            </p>
+                        </div>
+                    </div>
+                    <a href="#" class="all-links">Batafsil ko‘rish</a>
+                </div>
+            </div>
+        </div>
+        <div class="cup container">
+            <div class="cup-left">
+                <img src="./images/cup.svg" alt="img" class="cup">
+            </div>
+            <div class="cup-right">
+                <div class="cup-right__top">
+                    <h3 class="all-h3 blue">Top-3 foydalanuvchi</h3>
+                    <a href="#" class="all-links">Reytingni ko‘rish</a>
+                </div>
+                <div class="cup-right__bottom">
+                    <div class="cup-lineblocks line-1">
+                        <img src="./images/MirzakhalilovaMadina.svg" alt="img" class="thumb">
+                        <div class="cup-content">
+                            <div class="thumb-names">
+                                <h4 class="black-h4">
+                                    Mirzakhalilova Madina
+                                </h4>
+                                <p class="info-p blue">sport lug‘ati</p>
+                            </div>
+                            <div class="game">
+                                <div class="game-div">
+                                    <img src="./images/star.svg" alt="img">
+                                    <p class="green-p">2,365</p>
+                                </div>
+                                <div class="game-div2">
+                                    <img src="./images/game.svg" alt="img">
+                                    <p class="green-p">2,365</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cup-lineblocks line-2">
+                        <img src="./images/AbdullayevAbdubakir.svg" alt="img" class="thumb">
+                        <div class="cup-content">
+                            <div class="thumb-names">
+                                <h4 class="black-h4">
+                                    Abdullayev Abdubakir
+                                </h4>
+                                <p class="info-p blue">futbol</p>
+                            </div>
+                            <div class="game">
+                                <div class="game-div">
+                                    <img src="./images/star.svg" alt="img">
+                                    <p class="green-p">1,965</p>
+                                </div>
+                                <div class="game-div2">
+                                    <img src="./images/game.svg" alt="img">
+                                    <p class="green-p">2,263</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cup-lineblocks line-3">
+                        <img src="./images/UbaydullayevOdiljon.svg" alt="img" class="thumb">
+                        <div class="cup-content">
+                            <div class="thumb-names">
+                                <h4 class="black-h4">
+                                    Ubaydullayev Odiljon
+                                </h4>
+                                <p class="info-p blue">ha yoki yo‘q</p>
+                            </div>
+                            <div class="game">
+                                <div class="game-div">
+                                    <img src="./images/star.svg" alt="img" class="img-ml">
+                                    <p class="green-p">1,022</p>
+                                </div>
+                                <div class="game-div2">
+                                    <img src="./images/game.svg" alt="img">
+                                    <p class="green-p">2,001</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-pic">
+            <h3 class="all-h3 blue">Mashhur sportchilar</h3>
+            <a href="#" class="all-links">Barcha sportchilar</a>
+        </div>
+        <div class="userpic">
+            <a href="#" class="link">
+                <div class="userpic-block">
+                    <img src="./images/bek.png" alt="img" class="userpic-block__img">
+                    <div class="userpic-text">
+                        <h3 class="block-h3">Bektemir Melqo‘ziyev</h3>
+                        <p class="block-p ">Boks - Rio de Janeiro - 2004 oltin</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="link">
+                <div class="userpic-block">
+                    <img src="./images/rus.png" alt="img" class="userpic-block__img">
+                    <div class="userpic-text">
+                        <h3 class="block-h3">Ruslan Nuriddinov</h3>
+                        <p class="block-p ">Og‘ir atletika - Rio de Janeiro - 2016 oltin</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="link">
+                <div class="userpic-block">
+                    <img src="./images/artur.png" alt="img" class="userpic-block__img1">
+                    <div class="userpic-text">
+                        <h3 class="block-h3">ARTUR TAYMAZOV</h3>
+                        <p class="block-p ">Erkin kurash - Afina - 2004 oltin</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="link">
+                <div class="userpic-block">
+                    <img src="./images/faz.png" alt="img" class="userpic-block__img">
+                    <div class="userpic-text">
+                        <h3 class="block-h3">Fazliddin G‘oyibnazarov</h3>
+                        <p class="block-p ">Boks - Lillehammer - 2000 oltin</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="link">
+                <div class="userpic-block">
+                    <img src="./images/isroil.png" alt="img" class="userpic-block__img">
+                    <div class="userpic-text">
+                        <h3 class="block-h3">Isroil Madrimov</h3>
+                        <p class="block-p ">Boxing - Sankt-Peterburg - 2017 oltin</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="hero-section container">
+            <div class="family-section__left">
+                <h3 class="all-h3">
+                    BIZNI IJTIMOIY TARMOQLARDA HAM
+                    KUZATING VA OBUNA BO‘LING
+                </h3>
+            </div>
+            <div class="family-section__right">
+                <img src="./images/hero.svg" alt="img" class="hero-img">
+                <div class="logos">
+                    <a href="#" class="link">
+                        <svg width="88" height="88" class="share-icons" viewBox="0 0 88 88" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g filter="url(#filter0_d)">
+                                <rect x="20" y="10" width="48" height="48" rx="24" fill="white" />
+                                <path
+                                    d="M56 26.3085C55.1075 26.7 54.1565 26.9595 53.165 27.0855C54.185 26.4765 54.9635 25.5195 55.3295 24.366C54.3785 24.933 53.3285 25.3335 52.2095 25.557C51.3065 24.5955 50.0195 24 48.6155 24C45.8915 24 43.6985 26.211 43.6985 28.9215C43.6985 29.3115 43.7315 29.6865 43.8125 30.0435C39.722 29.844 36.1025 27.8835 33.671 24.897C33.2465 25.6335 32.9975 26.4765 32.9975 27.384C32.9975 29.088 33.875 30.5985 35.183 31.473C34.3925 31.458 33.617 31.2285 32.96 30.867C32.96 30.882 32.96 30.9015 32.96 30.921C32.96 33.312 34.6655 35.298 36.902 35.7555C36.5015 35.865 36.065 35.9175 35.612 35.9175C35.297 35.9175 34.979 35.8995 34.6805 35.8335C35.318 37.782 37.127 39.2145 39.278 39.261C37.604 40.5705 35.4785 41.3595 33.1775 41.3595C32.774 41.3595 32.387 41.3415 32 41.292C34.1795 42.6975 36.7625 43.5 39.548 43.5C48.602 43.5 53.552 36 53.552 29.499C53.552 29.2815 53.5445 29.0715 53.534 28.863C54.5105 28.17 55.331 27.3045 56 26.3085Z" />
+                            </g>
+                            <defs>
+                                <filter id="filter0_d" x="0" y="0" width="88" height="88" filterUnits="userSpaceOnUse"
+                                    color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                    <feColorMatrix in="SourceAlpha" type="matrix"
+                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                                    <feOffset dy="10" />
+                                    <feGaussianBlur stdDeviation="10" />
+                                    <feColorMatrix type="matrix"
+                                        values="0 0 0 0 0.4161 0 0 0 0 0.482057 0 0 0 0 0.57 0 0 0 0.05 0" />
+                                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+                                </filter>
+                            </defs>
+                        </svg>
+                    </a>
+                    <a href="#" class="link">
+                        <svg width="88" height="88" class="share-icons" viewBox="0 0 88 88" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g filter="url(#filter0_d)">
+                                <rect x="20" y="10" width="48" height="48" rx="24" fill="white" />
+                                <path
+                                    d="M50 30.25H45.5V27.25C45.5 26.422 46.172 25.75 47 25.75H48.5V22H45.5C43.0145 22 41 24.0145 41 26.5V30.25H38V34H41V46H45.5V34H48.5L50 30.25Z" />
+                            </g>
+                            <defs>
+                                <filter id="filter0_d" x="0" y="0" width="88" height="88" filterUnits="userSpaceOnUse"
+                                    color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                    <feColorMatrix in="SourceAlpha" type="matrix"
+                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                                    <feOffset dy="10" />
+                                    <feGaussianBlur stdDeviation="10" />
+                                    <feColorMatrix type="matrix"
+                                        values="0 0 0 0 0.4161 0 0 0 0 0.482057 0 0 0 0 0.57 0 0 0 0.05 0" />
+                                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+                                </filter>
+                            </defs>
+                        </svg>
+                    </a>
+                    <a href="#" class="link">
+                        <svg width="88" height="88" class="share-icons" viewBox="0 0 88 88" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g filter="url(#filter0_d)">
+                                <rect x="20" y="10" width="48" height="48" rx="24" fill="white" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M50.384 43.7791C50.706 44.0071 51.121 44.0641 51.491 43.9241C51.861 43.7831 52.133 43.4671 52.215 43.0841C53.084 39.0001 55.192 28.6631 55.983 24.9481C56.043 24.6681 55.943 24.3771 55.723 24.1901C55.503 24.0031 55.198 23.9491 54.926 24.0501C50.733 25.6021 37.82 30.4471 32.542 32.4001C32.207 32.5241 31.989 32.8461 32 33.1991C32.012 33.5531 32.25 33.8601 32.593 33.9631C34.96 34.6711 38.067 35.6561 38.067 35.6561C38.067 35.6561 39.519 40.0411 40.276 42.2711C40.371 42.5511 40.59 42.7711 40.879 42.8471C41.167 42.9221 41.475 42.8431 41.69 42.6401C42.906 41.4921 44.786 39.7171 44.786 39.7171C44.786 39.7171 48.358 42.3361 50.384 43.7791ZM39.374 35.1021L41.053 40.6401L41.426 37.1331C41.426 37.1331 47.913 31.2821 51.611 27.9471C51.719 27.8491 51.734 27.6851 51.644 27.5701C51.555 27.4551 51.391 27.4281 51.268 27.5061C46.982 30.2431 39.374 35.1021 39.374 35.1021Z" />
+                            </g>
+                            <defs>
+                                <filter id="filter0_d" x="0" y="0" width="88" height="88" filterUnits="userSpaceOnUse"
+                                    color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                    <feColorMatrix in="SourceAlpha" type="matrix"
+                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                                    <feOffset dy="10" />
+                                    <feGaussianBlur stdDeviation="10" />
+                                    <feColorMatrix type="matrix"
+                                        values="0 0 0 0 0.4161 0 0 0 0 0.482057 0 0 0 0 0.57 0 0 0 0.05 0" />
+                                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+                                </filter>
+                            </defs>
+                        </svg>
+                    </a>
+                    <a href="#" class="link">
+                        <svg width="88" height="88" class="share-icons" viewBox="0 0 88 88" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g filter="url(#filter0_d)">
+                                <rect x="20" y="10" width="48" height="48" rx="24" fill="white" />
+                                <path
+                                    d="M48.5 22H39.5C35.3585 22 32 25.3585 32 29.5V38.5C32 42.6415 35.3585 46 39.5 46H48.5C52.6415 46 56 42.6415 56 38.5V29.5C56 25.3585 52.6415 22 48.5 22ZM53.75 38.5C53.75 41.395 51.395 43.75 48.5 43.75H39.5C36.605 43.75 34.25 41.395 34.25 38.5V29.5C34.25 26.605 36.605 24.25 39.5 24.25H48.5C51.395 24.25 53.75 26.605 53.75 29.5V38.5Z" />
+                                <path
+                                    d="M44 28C40.6865 28 38 30.6865 38 34C38 37.3135 40.6865 40 44 40C47.3135 40 50 37.3135 50 34C50 30.6865 47.3135 28 44 28ZM44 37.75C41.933 37.75 40.25 36.067 40.25 34C40.25 31.9315 41.933 30.25 44 30.25C46.067 30.25 47.75 31.9315 47.75 34C47.75 36.067 46.067 37.75 44 37.75Z" />
+                                <path
+                                    d="M50.4494 28.3495C50.891 28.3495 51.2489 27.9915 51.2489 27.55C51.2489 27.1084 50.891 26.7505 50.4494 26.7505C50.0079 26.7505 49.6499 27.1084 49.6499 27.55C49.6499 27.9915 50.0079 28.3495 50.4494 28.3495Z" />
+                            </g>
+                            <defs>
+                                <filter id="filter0_d" x="0" y="0" width="88" height="88" filterUnits="userSpaceOnUse"
+                                    color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                    <feColorMatrix in="SourceAlpha" type="matrix"
+                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                                    <feOffset dy="10" />
+                                    <feGaussianBlur stdDeviation="10" />
+                                    <feColorMatrix type="matrix"
+                                        values="0 0 0 0 0.4161 0 0 0 0 0.482057 0 0 0 0 0.57 0 0 0 0.05 0" />
+                                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+                                </filter>
+                            </defs>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer container">
+        <div class="footer-top">
+            <div class="footer-top__block">
+                <div class="header-logo">
+                    <a href="#" class="link">
+                        <img src="./images/logo.svg" alt="img" class="header-logo__img">
+                    </a>
+                    <h2 class="header-logo--text">
+                        Sport Bolalar <br>
+                        Nigohida
+                    </h2>
+                </div>
+                <p class="info-p wdx">
+                    Portalda eʼlon qilingan materiallardan nusxa koʻchirish, tarqatish va boshqa shakllarda foydalanish
+                    faqat tahririyat yozma roziligi bilan amalga oshirilishi mumkin.
+                </p>
+            </div>
+            <div class="footer-top__block">
+                <a href="#" class="header-links__link">Bo‘limlar</a>
+                <a href="#" class="footer-links">O‘yinlar</a>
+                <a href="#" class="footer-links">Infografika</a>
+                <a href="#" class="footer-links">Ota-onalar uchun</a>
+                <a href="#" class="footer-links">Videoblog</a>
+                <a href="#" class="footer-links">Reyting</a>
+            </div>
+            <div class="footer-top__block">
+                <a href="#" class="header-links__link">O‘yin va sinovlar</a>
+                <a href="#" class="footer-links">10 bosqichdan iborat sport test</a>
+                <a href="#" class="footer-links">O‘ylab toping</a>
+                <a href="#" class="footer-links">Ha yoki yo‘q</a>
+                <a href="#" class="footer-links">Sport lug‘ati</a>
+            </div>
+            <div class="footer-top__block bl">
+                <a href="#" class="header-links__link">Foydali sahifalar</a>
+                <a href="#" class="footer-links">Reyting</a>
+                <a href="#" class="footer-links">Bog‘lanish</a>
+                <a href="#" class="footer-links">F.A.Q</a>
+                <a href="#" class="footer-links">Foydalanish shartlari</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p class="info-p wdx">Sport Bolalar Nigohida © 2020. Barcha huquqlar himoyalangan.</p>
+            <a href="#" class="footer-bottom__inner link">
+                <p class="footer-links">Designed and developed by </p>
+                <img src="./images/inner-footer.svg" alt="img" class="inner-img">
+            </a>
+            <div class="logos">
+                <h3 class="silver-p">Biz ijtimoiy tarmoqlarda</h3>
+                <a href="#" class="link">
+                    <svg width="88" height="88" class="share-icons" viewBox="0 0 88 88" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_d)">
+                            <rect x="20" y="10" width="48" height="48" rx="24" fill="white" />
+                            <path
+                                d="M56 26.3085C55.1075 26.7 54.1565 26.9595 53.165 27.0855C54.185 26.4765 54.9635 25.5195 55.3295 24.366C54.3785 24.933 53.3285 25.3335 52.2095 25.557C51.3065 24.5955 50.0195 24 48.6155 24C45.8915 24 43.6985 26.211 43.6985 28.9215C43.6985 29.3115 43.7315 29.6865 43.8125 30.0435C39.722 29.844 36.1025 27.8835 33.671 24.897C33.2465 25.6335 32.9975 26.4765 32.9975 27.384C32.9975 29.088 33.875 30.5985 35.183 31.473C34.3925 31.458 33.617 31.2285 32.96 30.867C32.96 30.882 32.96 30.9015 32.96 30.921C32.96 33.312 34.6655 35.298 36.902 35.7555C36.5015 35.865 36.065 35.9175 35.612 35.9175C35.297 35.9175 34.979 35.8995 34.6805 35.8335C35.318 37.782 37.127 39.2145 39.278 39.261C37.604 40.5705 35.4785 41.3595 33.1775 41.3595C32.774 41.3595 32.387 41.3415 32 41.292C34.1795 42.6975 36.7625 43.5 39.548 43.5C48.602 43.5 53.552 36 53.552 29.499C53.552 29.2815 53.5445 29.0715 53.534 28.863C54.5105 28.17 55.331 27.3045 56 26.3085Z" />
+                        </g>
+                        <defs>
+                            <filter id="filter0_d" x="0" y="0" width="88" height="88" filterUnits="userSpaceOnUse"
+                                color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                <feColorMatrix in="SourceAlpha" type="matrix"
+                                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                                <feOffset dy="10" />
+                                <feGaussianBlur stdDeviation="10" />
+                                <feColorMatrix type="matrix"
+                                    values="0 0 0 0 0.4161 0 0 0 0 0.482057 0 0 0 0 0.57 0 0 0 0.05 0" />
+                                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+                            </filter>
+                        </defs>
+                    </svg>
+                </a>
+                <a href="#" class="link">
+                    <svg width="88" height="88" class="share-icons" viewBox="0 0 88 88" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_d)">
+                            <rect x="20" y="10" width="48" height="48" rx="24" fill="white" />
+                            <path
+                                d="M50 30.25H45.5V27.25C45.5 26.422 46.172 25.75 47 25.75H48.5V22H45.5C43.0145 22 41 24.0145 41 26.5V30.25H38V34H41V46H45.5V34H48.5L50 30.25Z" />
+                        </g>
+                        <defs>
+                            <filter id="filter0_d" x="0" y="0" width="88" height="88" filterUnits="userSpaceOnUse"
+                                color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                <feColorMatrix in="SourceAlpha" type="matrix"
+                                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                                <feOffset dy="10" />
+                                <feGaussianBlur stdDeviation="10" />
+                                <feColorMatrix type="matrix"
+                                    values="0 0 0 0 0.4161 0 0 0 0 0.482057 0 0 0 0 0.57 0 0 0 0.05 0" />
+                                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+                            </filter>
+                        </defs>
+                    </svg>
+                </a>
+                <a href="#" class="link">
+                    <svg width="88" height="88" class="share-icons" viewBox="0 0 88 88" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_d)">
+                            <rect x="20" y="10" width="48" height="48" rx="24" fill="white" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M50.384 43.7791C50.706 44.0071 51.121 44.0641 51.491 43.9241C51.861 43.7831 52.133 43.4671 52.215 43.0841C53.084 39.0001 55.192 28.6631 55.983 24.9481C56.043 24.6681 55.943 24.3771 55.723 24.1901C55.503 24.0031 55.198 23.9491 54.926 24.0501C50.733 25.6021 37.82 30.4471 32.542 32.4001C32.207 32.5241 31.989 32.8461 32 33.1991C32.012 33.5531 32.25 33.8601 32.593 33.9631C34.96 34.6711 38.067 35.6561 38.067 35.6561C38.067 35.6561 39.519 40.0411 40.276 42.2711C40.371 42.5511 40.59 42.7711 40.879 42.8471C41.167 42.9221 41.475 42.8431 41.69 42.6401C42.906 41.4921 44.786 39.7171 44.786 39.7171C44.786 39.7171 48.358 42.3361 50.384 43.7791ZM39.374 35.1021L41.053 40.6401L41.426 37.1331C41.426 37.1331 47.913 31.2821 51.611 27.9471C51.719 27.8491 51.734 27.6851 51.644 27.5701C51.555 27.4551 51.391 27.4281 51.268 27.5061C46.982 30.2431 39.374 35.1021 39.374 35.1021Z" />
+                        </g>
+                        <defs>
+                            <filter id="filter0_d" x="0" y="0" width="88" height="88" filterUnits="userSpaceOnUse"
+                                color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                <feColorMatrix in="SourceAlpha" type="matrix"
+                                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                                <feOffset dy="10" />
+                                <feGaussianBlur stdDeviation="10" />
+                                <feColorMatrix type="matrix"
+                                    values="0 0 0 0 0.4161 0 0 0 0 0.482057 0 0 0 0 0.57 0 0 0 0.05 0" />
+                                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+                            </filter>
+                        </defs>
+                    </svg>
+                </a>
+                <a href="#" class="link">
+                    <svg width="88" height="88" class="share-icons" viewBox="0 0 88 88" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_d)">
+                            <rect x="20" y="10" width="48" height="48" rx="24" fill="white" />
+                            <path
+                                d="M48.5 22H39.5C35.3585 22 32 25.3585 32 29.5V38.5C32 42.6415 35.3585 46 39.5 46H48.5C52.6415 46 56 42.6415 56 38.5V29.5C56 25.3585 52.6415 22 48.5 22ZM53.75 38.5C53.75 41.395 51.395 43.75 48.5 43.75H39.5C36.605 43.75 34.25 41.395 34.25 38.5V29.5C34.25 26.605 36.605 24.25 39.5 24.25H48.5C51.395 24.25 53.75 26.605 53.75 29.5V38.5Z" />
+                            <path
+                                d="M44 28C40.6865 28 38 30.6865 38 34C38 37.3135 40.6865 40 44 40C47.3135 40 50 37.3135 50 34C50 30.6865 47.3135 28 44 28ZM44 37.75C41.933 37.75 40.25 36.067 40.25 34C40.25 31.9315 41.933 30.25 44 30.25C46.067 30.25 47.75 31.9315 47.75 34C47.75 36.067 46.067 37.75 44 37.75Z" />
+                            <path
+                                d="M50.4494 28.3495C50.891 28.3495 51.2489 27.9915 51.2489 27.55C51.2489 27.1084 50.891 26.7505 50.4494 26.7505C50.0079 26.7505 49.6499 27.1084 49.6499 27.55C49.6499 27.9915 50.0079 28.3495 50.4494 28.3495Z" />
+                        </g>
+                        <defs>
+                            <filter id="filter0_d" x="0" y="0" width="88" height="88" filterUnits="userSpaceOnUse"
+                                color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                <feColorMatrix in="SourceAlpha" type="matrix"
+                                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                                <feOffset dy="10" />
+                                <feGaussianBlur stdDeviation="10" />
+                                <feColorMatrix type="matrix"
+                                    values="0 0 0 0 0.4161 0 0 0 0 0.482057 0 0 0 0 0.57 0 0 0 0.05 0" />
+                                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+                            </filter>
+                        </defs>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="./libs/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="./scripts/main.js"></script>
+</body>
+
+</html>
